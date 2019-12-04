@@ -33,33 +33,3 @@ public class 十进制转十六进制 {
     }
 
 }
-
-//    /**
-//     * 将二进制字符串转化成十六进制数
-//     * @param string
-//     */
-//    private static void fun(String string) {
-//        System.out.println(string);
-//        int end = string.length(),star = end - 4;
-//        while(star>0){
-//            System.out.println(Alphabet[twotoTen(string.substring(star, end))]);
-//            star-=4;
-//            end-=4;
-//        }
-//        System.out.println(Alphabet[Integer.parseInt(string.substring(0, end))]);
-//    }
-//
-//    /**
-//     * 二进制转十进制
-//     * @param substring
-//     * @return
-//     */
-//    private static int twotoTen(String substring) {
-//        System.out.println(substring);
-//        int num = 0;
-//        for (int i = 0; i<substring.length();i++){
-//            num += (substring.indexOf(substring.length()-i-1)-'0')*Math.pow(2,i);
-//        }
-//        return num;
-//    }
-//}
