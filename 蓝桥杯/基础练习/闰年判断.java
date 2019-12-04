@@ -11,6 +11,5 @@ public class 闰年判断 {
             return;
         }
         System.out.println("no");
-
     }
 }
